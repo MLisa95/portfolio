@@ -1,0 +1,149 @@
+/* Reset & Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card Container */
+.player-card {
+  width: 320px;
+  background: linear-gradient(to bottom, #ff0080, #2c003e);
+  border-radius: 20px;
+  overflow: hidden;
+  color: white;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  padding: 1rem;
+}
+
+/* Top Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.sport-name {
+  background-color: #1a0033;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.badge {
+  text-align: right;
+}
+
+.badge .shield {
+  background: #ff0066;
+  color: white;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+
+.flag {
+  height: 12px;
+  margin-top: 4px;
+}
+
+/* Player Image */
+.player-image {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.player-image img {
+  width: 120px;
+  height: 450px;
+  object-fit: fill;
+}
+
+/* Stats Overview */
+.stats-overview {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Player Info Section */
+.player-info {
+  background-color: #1a0033;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.player-number {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: right;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.player-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  letter-spacing: 1px;
+}
+
+.description {
+  font-size: 0.7rem;
+  color: #ddd;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.rating {
+  color: gold;
+  margin-bottom: 0.5rem;
+}
+
+/* Stat Bars */
+.stat-bars .bar {
+  margin-bottom: 0.5rem;
+}
+
+.stat-bars .bar-label {
+  font-size: 0.7rem;
+  margin-bottom: 0.2rem;
+}
+
+.progress {
+  background-color: #fff;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(to right, #ff0080, #ff66cc);
+  width: 75%; /* change depending on stat */
+}
