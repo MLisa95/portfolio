@@ -1,0 +1,33 @@
+@media (max-width: 760px) {
+  /* 1. Hide the banner */
+  .banner {
+    display: none;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  /* 2. Reposition hero title to top center */
+  .hero-box {
+    top: 10%;
+    left: 50%;
+    bottom: auto; /* remove previous bottom position */
+    transform: translateX(-50%);
+    text-align: center;
+    width: 90%; /* optional: keep box from going edge to edge */
+    background-color: transparent;
+    margin-top: 50px;
+  }
+
+  .hero-box h1 {
+    font-size: 1.8rem; /* slightly smaller for mobile */
+  }
+
+  .hero-box {
+  transition: all 0.3s ease-in-out;
+    }
+
+
+}
+

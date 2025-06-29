@@ -1,0 +1,72 @@
+
+
+.fixture-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem auto;
+  font-family: 'Rubik', sans-serif;
+}
+
+.fixture-date td {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #f9b233;
+  background-color: #1b4d3e;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-radius: 10px 10px 0 0;
+}
+
+.fixture-row td {
+  padding: 1rem;
+  text-align: center;
+  background-color: #f1faee;
+  border-bottom: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+.fixture-row:nth-child(even) td {
+  background-color: #e6f6f0;
+}
+
+.team-name {
+  font-weight: 600;
+  color: #1b4d3e;
+}
+
+.match-time {
+  font-weight: bold;
+  color: #333;
+}
+
+.team-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+/*** FILTERS **/
+.fixture-filters {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.filter-btn {
+  background-color: #1b4d3e;
+  color: white;
+  border: 2px solid #f9b233;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  transition: background 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #f9b233;
+  color: #1b4d3e;
+}
+
